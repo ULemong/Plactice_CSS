@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  border-bottom: 2px solid darkgray;
+  margin: 0;
+  padding: 30px;
+}
+ol {
+  border-right: 2px solid darkgray;
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+.saw {
+  color: gray;
+}
+#active {
+  color: red;
+}
