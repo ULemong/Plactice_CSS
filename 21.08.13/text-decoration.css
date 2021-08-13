@@ -1,0 +1,8 @@
+a {
+  /*
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-style: wavy;
+  */
+  text-decoration: line-through red wavy;
+}
