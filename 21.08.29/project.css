@@ -1,0 +1,46 @@
+.header-content h1 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: pink;
+  text-align: center;
+}
+
+.nav-list {
+  line-height: 20px;
+  text-align: center;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.nav-item {
+  background-color: skyblue;
+  display: block;
+  width: 150px;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+}
+
+.nav-item + .nav-item {
+
+}
+
+.nav-item a {
+  display: block;
+  color: blue;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.contents {
+  margin: 20px;
+}
